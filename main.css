@@ -1,0 +1,134 @@
+*,html,body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    max-height: 50vh;
+}
+:root{
+    --blue:#2bb3b1;
+}
+.container{
+   
+    font-size:1.2rem;
+    background-color: #ffffff;
+}
+header{
+    margin:7% 0 5% 10%;
+    
+}
+#join{
+    color: var(--blue);
+    padding-bottom: 1.6%;
+    opacity: 1;
+    font-weight: 600;
+    font-size: 1rem;
+}
+#fee-money{
+    color: #bfdf32;
+    font-size: 1rem;
+opacity: 0.8;
+padding-bottom:1.2rem ;
+}
+p{
+    font-size: 0.9rem;
+    opacity: 0.5;
+}
+.col2{
+    display: flex;
+    justify-content: start;
+    
+}
+.col1,.col1-2{
+    background-color: var(--blue);
+    color: #fff;
+    width: 50vw;
+    height: 50vh;
+    padding-left:10%;
+    padding-top: 3%;
+    margin-top: 2%;
+}
+.col1-2{
+    opacity: 0.9;
+}
+h4{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+h2{
+    font-size: 2rem;
+    padding-top:4%;
+}
+#month{
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+.access{
+    padding-top: 4%;
+}
+.signup{
+    text-align: center;
+    background-color: #bfdf32;
+    border-radius: 10px;
+    width: 35%;
+    height: 15%;
+    color: white;
+    margin-top: 10%;
+    font-size: 1.2em;
+}
+
+#tut{
+    opacity: 0.8;
+    font-size: 0.8rem;
+    padding-top: 5%;
+    line-height: 1.5;
+}
+@media only screen and (max-width:375px){
+    #Gain-access{
+        padding-top: 10px;
+        font-size: .8em;
+        line-height: 2;
+opacity: 0.4;
+margin:5% auto 0 auto;
+    }
+    .container{
+        margin-top: 5%;
+        display: flex;
+    flex-direction: column;
+    width: 95vw;
+    }
+    .col2{
+       margin-top: 10%;
+        flex-direction: column;
+    }
+    .signup{
+        width: 80%;
+        margin: 15%  auto 0 auto;
+        height: 25%;
+    }
+.col1,.col1-2{
+    width: 100vw;
+}
+.col1{
+    padding-top: 3%;
+}
+p{
+    margin-top:7%;
+    margin-left: -5px;
+    font-size: 1rem;
+    opacity: 0.5;
+}
+.col1-2{
+    margin-top: -2px;
+    height: 100%;
+}
+#tut{
+    font-size: 1rem;
+   padding: auto;
+   line-height: 1.5;
+   width: 50%;
+   opacity: 0.4;
+  margin-top: -5px;
+   padding-bottom: 35%;
+   font-weight: 300;
+}
+}
